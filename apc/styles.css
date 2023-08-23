@@ -37,7 +37,7 @@
 .monaco-editor .cursors-layer.cursor-smooth-caret-animation > .cursor {
   /* NOTE: first enable editor.cursorSmoothCaretAnimation */
   /* NOTE: always leave the transition in the code */
-  /* transition: all 100ms ease-out ; */
+  transition: all 120ms ease-out ;
 
   /* NOTE: uncomment this animation for skew demo */
   /* animation: my-slide 2s ease-in-out infinite; */
@@ -48,5 +48,5 @@
   background: linear-gradient(to bottom, #ee0979, #ff6a00) !important;
   box-shadow: 0 0 42px 5px #ee0979, #ff6a00 0px 0px 34px 5px;
   color: #161616 !important;
-  border-radius: 10px;
+  border-radius: 0px;
 }
