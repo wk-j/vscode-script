@@ -120,7 +120,8 @@
 
 .monaco-pane-view .pane>.pane-header h3.title {
     font-style: normal;
-    text-transform: none;
-    font-size: 13px;
-    text-shadow: 0 0 5px #2f36ff, 0 0 55px #9d91ff;
+    /* text-transform: none; */
+    font-size: 15px;
+    /* text-shadow: 1px 1px 10px #00d515, 1px 1px 5px black; */
+    font-family: "3270 Nerd Font";
 }
