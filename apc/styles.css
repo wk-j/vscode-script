@@ -1,0 +1,52 @@
+@keyframes my-rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(20deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-20deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes my-slide {
+  0% {
+    transform: scale(1) skew(0deg, 0deg);
+  }
+  25% {
+    transform: scale(1.6) skew(00deg, 0deg);
+  }
+  50% {
+    transform: scale(1) skew(0deg, 0deg);
+  }
+  75% {
+    transform: scale(1.3) skew(0deg, 0deg);
+  }
+  100% {
+    transform: scale(1) skew(0deg, 0deg);
+  }
+}
+
+.monaco-editor .cursors-layer.cursor-smooth-caret-animation > .cursor {
+  /* NOTE: first enable editor.cursorSmoothCaretAnimation */
+  /* NOTE: always leave the transition in the code */
+  transition: all 100ms ease-out ;
+
+  /* NOTE: uncomment this animation for skew demo */
+  animation: my-slide 2s ease-in-out infinite;
+
+  /* NOTE: uncomment this animation for rotation demo */
+  /* animation: my-rotation 2s linear infinite; */
+
+  background: linear-gradient(to bottom, #ee0979, #ff6a00) !important;
+  box-shadow: 0 0 42px 5px #ee0979, #ff6a00 0px 0px 34px 1px;
+  color: #161616 !important;
+  border-radius: 10px;
+}
