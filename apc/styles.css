@@ -117,3 +117,10 @@
 .custom-font-family-sidebar .sidebar .mac {
     font-size: 14px;
 }
+
+.monaco-pane-view .pane>.pane-header h3.title {
+    font-style: normal;
+    text-transform: none;
+    font-size: 13px;
+    text-shadow: 0 0 5px #2f36ff, 0 0 55px #9d91ff;
+}
