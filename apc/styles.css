@@ -125,3 +125,12 @@
     /* text-shadow: 1px 1px 10px #00d515, 1px 1px 5px black; */
     font-family: "3270 Nerd Font";
 }
+
+.monaco-mouse-cursor-text {}
+
+
+.monaco-workbench {
+    --vscode-errorForeground: #12ed71;
+}
+
+.cursors-layer .has-selection {}
