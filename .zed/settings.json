@@ -1,0 +1,7 @@
+{
+    "enable_language_server": true,
+    "assistant": {
+        "default_width": 600
+    },
+    "active_pane_magnification": 2.0
+}

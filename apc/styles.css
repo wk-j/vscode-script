@@ -94,6 +94,7 @@
     color: #8ec07c;
 }
 
+/*
 .mtk11 {
     color: #91bbff;
     text-shadow: 0 0 10px #2f36ff, 0 0 22px #9d91ff, 0 0 2px black;
@@ -103,6 +104,7 @@
     color: #67d2ff;
     text-shadow: 0 0 15px #12baff, 0 0 2px black;
 }
+*/
 
 #preview {
     font-size: 18px;
@@ -126,11 +128,26 @@
     font-family: "3270 Nerd Font";
 }
 
-.monaco-mouse-cursor-text {}
-
-
-.monaco-workbench {
-    --vscode-errorForeground: #12ed71;
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab {
+    /* text-shadow: 1px 1px 50px #ffffff; */
+    /* animation: my-slide 2s ease-in-out infinite; */
 }
 
-.cursors-layer .has-selection {}
+
+.monaco-workbench .activitybar>.content :not(.monaco-menu)>.monaco-action-bar .action-item {
+    /*
+    text-shadow: 0px 0px 1px orange;
+    background-color: #1d2021;
+    */
+}
+
+/*
+.monaco-workbench .activitybar>.content :not(.monaco-menu)>.monaco-action-bar  {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,31,121,1) 54%, rgba(0,212,255,1) 100%);;
+}
+*/
+
+.monaco-workbench .activitybar {
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(0,0,0,0.6741290266106443) 54%, rgba(17,19,16,0.43883490896358546) 100%);
