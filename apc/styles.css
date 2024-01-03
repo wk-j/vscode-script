@@ -45,7 +45,7 @@
 .monaco-editor .cursors-layer.cursor-smooth-caret-animation>.cursor {
     /* NOTE: first enable editor.cursorSmoothCaretAnimation */
     /* NOTE: always leave the transition in the code */
-    transition: all 120ms ease-out;
+    transition: all 80ms ease-out;
 
     /* NOTE: uncomment this animation for skew demo */
     /* animation: my-slide 2s ease-in-out infinite; */
@@ -53,8 +53,8 @@
     /* NOTE: uncomment this animation for rotation demo */
     /* animation: my-rotation 2s linear infinite; */
 
-    background: linear-gradient(to bottom, #ee0979, #ff6a00) !important;
-    box-shadow: 0 0 42px 5px #ee0979, #ff6a00 0px 0px 34px 5px;
+    background: linear-gradient(to bottom, #09ee46, #d1de14) !important;
+    box-shadow: 0 0 42px 5px #afe87d, #ff6a00 0px 0px 34px 5px;
     color: #161616 !important;
     border-radius: 0px;
 }
@@ -117,7 +117,7 @@
 }
 
 .custom-font-family-sidebar .sidebar .mac {
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .monaco-pane-view .pane>.pane-header h3.title {
